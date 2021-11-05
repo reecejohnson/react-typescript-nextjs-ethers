@@ -1,0 +1,22 @@
+{
+  "parser": "@typescript-eslint/parser",
+  "plugins": ["@typescript-eslint", "prettier"],
+  "extends": [
+    "eslint:recommended",
+    "next",
+    "next/core-web-vitals",
+    "plugin:react-hooks/recommended",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:cypress/recommended",
+    "plugin:prettier/recommended"
+  ],
+  "env": {
+    "browser": true,
+    "node": true
+  },
+  "rules": {
+    "react-hooks/exhaustive-deps": "off",
+    "jsx-a11y/alt-text": "off",
+    "@typescript-eslint/explicit-module-boundary-types": "off"
+  }
+}
