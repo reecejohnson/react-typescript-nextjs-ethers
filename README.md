@@ -1,4 +1,5 @@
 # React, TypeScript, Next.js, Tailwind CSS - Boilerplate
+![tools](public/tools.png)
 
 A skeleton project with everything you need to get started with a production ready front-end application.
 
